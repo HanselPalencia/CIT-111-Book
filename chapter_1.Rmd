@@ -1,0 +1,16 @@
+---
+title: "Chapter 1"
+output: 
+  html_document: 
+    theme: cerulean
+    highlight: tango
+    css: styles.css
+---
+
+```{r, include=FALSE}
+library(tidyverse)
+library(plotly)
+library(mosaic)
+```
+
+

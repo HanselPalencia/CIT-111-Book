@@ -1,0 +1,14 @@
+---
+title: "Chapter 2"
+output: 
+  html_document: 
+    theme: cerulean
+    highlight: tango
+    css: styles.css
+---
+
+```{r, include=FALSE}
+library(mosaic)
+library(pander)
+library(tidyverse)
+```

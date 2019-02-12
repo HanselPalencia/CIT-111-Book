@@ -109,37 +109,13 @@ Preface
 
 ----
 
-* **Week 10 - 11**
-    + Chapter 10-3
-    + Reverse Engineering a Database
-    + Salon Project
-    
-<!------------------------------------------------->
-
-----
-
-* **Week 12 - 13**
-    + Views
-    + University Project
-    
-<!------------------------------------------------->
-
-----    
-
-
-* **Week 14**
-    + Final Exam
-    + Congratulations!
-    
-<!------------------------------------------------->
-
-----
-
 * **Special Thanks**
     + Creators of the Textbook
     + Student Feedback
 
 
+
+<!------------------------------------------------->
 
 
 

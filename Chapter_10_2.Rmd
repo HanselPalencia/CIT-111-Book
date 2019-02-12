@@ -1,0 +1,12 @@
+---
+title: "Chapter 10-2"
+output: 
+  html_document: 
+    theme: cerulean
+    highlight: tango
+    css: styles.css
+---
+
+
+
+<footer></footer>

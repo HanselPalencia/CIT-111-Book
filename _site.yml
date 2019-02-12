@@ -6,18 +6,16 @@ navbar:
       href: index.html
     - text: "Week 1"
       menu:
-        - text: "Graphical Summaries"
-          href: GraphicalSummaries.html
-        - text: "Numerical Summaries"
-          href: NumericalSummaries.html
+        - text: "Chapter 1"
+          href: chapter_1.html
+        - text: "Chapter 2"
+          href: chapter_2.html
     - text: "Week 2"
       menu:
-        - text: "R Commands"
-          href: RCommands.html
-        - text: "R Markdown Hints"
-          href: RMarkdownHints.html
-        - text: "R Cheatsheets & Notes"
-          href: RCheatSheetsAndNotes.html
+        - text: "Chapter 10-2"
+          href: Chapter_10_2.html
+        - text: "ERD Design Concepts"
+          href: ERD_Design_Concepts.html
     - text: "Week 3"
       menu:
         - text: "Analysis Rubric"
@@ -54,23 +52,7 @@ navbar:
       menu: 
         - text: "Analysis Rubric"
           href: ./Analyses/AnalysisRubric.html
-    - text: "Week 10"
-      menu: 
-        - text: "Analysis Rubric"
-          href: ./Analyses/AnalysisRubric.html
-    - text: "Week 11-12"
-      menu: 
-        - text: "Analysis Rubric"
-          href: ./Analyses/AnalysisRubric.html
-    - text: "Week 12-13"
-      menu: 
-        - text: "Analysis Rubric"
-          href: ./Analyses/AnalysisRubric.html
-    - text: "Week 14"
-      menu:
-        - text: "Analysis Rubric"
-          href: ./Analyses/AnalysisRubric.html
-
+          
 output_dir: '.'
 
   
