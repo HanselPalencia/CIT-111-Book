@@ -1,6 +1,6 @@
-name: "math-325-notebook"
+name: "CIT-111-TextBook"
 navbar:
-  title: "Math 325 Notebook"
+  title: "CIT 111 Textbook"
   left:
     - text: "Table of Contents"
       href: index.html

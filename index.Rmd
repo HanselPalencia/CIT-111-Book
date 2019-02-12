@@ -9,174 +9,137 @@ output:
 
 ----
 
-Customize this page and any of the Math 325 Notebook so that it becomes a useful *Guide to Statistical Analysis* for your *current* and *future* self. 
+Welcome to the CIT-111 Online Textbook!
 
-<!-- This is how to comment text out. You can comment out the above instructions if you wish. Comments allow the text to remain in the Rmd file, but not be displayed in the html file. -->
+This is a very simple version of the textbook and is to be used an example for future creation of the book itself.
+
+This book will be separated into the weeks of the semester.
+
+If you would like to get started go directly to Chapter 1!
 
 [Customization Help](RMarkdownHints.html)
 
 ----
 
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QuantY.png" width=35px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
+Preface
 
-**1 Quantitative Variable**
+<!------------------------------------------------>
+
+----
+
+* **Week 1**
+    + Installing MySQL
+    + Chapter 1
+    + Chapter 2
+
+<!------------------------------------------------>
+  
+----
+
+* **Week 2**
+    + Chapter 10-2
+    + ERD Design Concepts
 
 
+<!------------------------------------------------>
+
+----
+
+* **Week 3**
+    + Statement of Work
+    + Chapter 10
+
+<!------------------------------------------------>
+
+----
+
+* **Week 4**
+    + Chapter 3
+    + Order of Execution
 
 
+<!------------------------------------------------>
 
+----
+
+* **Week 5**
+    + Chapter 4
+    + Order of Execution (Advanced)
+
+
+<!------------------------------------------------>
+
+----
+
+* **Week 6**
+    + Chapter 6
+
+
+<!------------------------------------------------>
+
+----
+
+* **Week 7**
+    + Normalization
 
 
 
 <!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
 
 ----
 
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QuantYQualXg2.png" width=59px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
 
-**1 Quantitative Variable | 2 Groups**
+* **Week 8**
+    + Chapter 5
 
 
 
-
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
+<!------------------------------------------------->
 
 ----
 
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QuantYQualXg3plus.png" width=59px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-
-**1 Quantitative Variable | 3+ Groups**
+* **Week 9**
+    + Chapter 8
+    + Chapter 9
 
 
 
 
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
+<!------------------------------------------------->
 
 ----
 
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QuantYQuantX.png" width=59px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-
-**2 Quantitative Variables**
-
-
-
-
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
+* **Week 10 - 11**
+    + Chapter 10-3
+    + Reverse Engineering a Database
+    + Salon Project
+    
+<!------------------------------------------------->
 
 ----
 
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QuantYMultX.png" width=110px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
+* **Week 12 - 13**
+    + Views
+    + University Project
+    
+<!------------------------------------------------->
 
-**1 Quantitative Response | Multiple Explanatory Variables**
-
-
+----    
 
 
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
-
-----
-
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/BinomYQuantX.png" width=59px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-
-**Binomial Response | 1 Explanatory Variable**
+* **Week 14**
+    + Final Exam
+    + Congratulations!
+    
+* **Special Thanks**
+    + Creators of the Textbook
+    + Student Feedback
 
 
 
 
 
 
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
-
-----
-
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/BinomYMultX.png" width=110px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-
-**Binomial Response | Multiple Explanatory Variables**
-
-
-
-
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
-
-----
-
-<div style="float:left;width:125px;" align=center>
-<img src="./Images/QualYQualX.png" width=59px;>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-
-**2 Qualitative Variables**
-
-
-
-
-
-
-
-<!------------------------------------------------>
-</div>
-<div style="clear:both;"></div>
-
-----
 
 <footer></footer>
 

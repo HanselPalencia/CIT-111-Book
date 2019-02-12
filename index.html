@@ -96,6 +96,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -110,7 +113,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -130,6 +132,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -151,18 +190,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -176,7 +274,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Math 325 Notebook</a>
+      <a class="navbar-brand" href="index.html">CIT 111 Textbook</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -259,106 +357,125 @@ $(document).ready(function () {
 
 <p><br></p>
 <hr />
-<p>Customize this page and any of the Math 325 Notebook so that it becomes a useful <em>Guide to Statistical Analysis</em> for your <em>current</em> and <em>future</em> self.</p>
-<!-- This is how to comment text out. You can comment out the above instructions if you wish. Comments allow the text to remain in the Rmd file, but not be displayed in the html file. -->
+<p>Welcome to the CIT-111 Online Textbook!</p>
+<p>This is a very simple version of the textbook and is to be used an example for future creation of the book itself.</p>
+<p>This book will be separated into the weeks of the semester.</p>
+<p>If you would like to get started go directly to Chapter 1!</p>
 <p><a href="RMarkdownHints.html">Customization Help</a></p>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QuantY.png" width=35px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>1 Quantitative Variable</strong></p>
+<p>Preface</p>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QuantYQualXg2.png" width=59px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>1 Quantitative Variable | 2 Groups</strong></p>
+<ul>
+<li><strong>Week 1</strong>
+<ul>
+<li>Installing MySQL</li>
+<li>Chapter 1</li>
+<li>Chapter 2</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QuantYQualXg3plus.png" width=59px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>1 Quantitative Variable | 3+ Groups</strong></p>
+<ul>
+<li><strong>Week 2</strong>
+<ul>
+<li>Chapter 10-2</li>
+<li>ERD Design Concepts</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QuantYQuantX.png" width=59px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>2 Quantitative Variables</strong></p>
+<ul>
+<li><strong>Week 3</strong>
+<ul>
+<li>Statement of Work</li>
+<li>Chapter 10</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QuantYMultX.png" width=110px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>1 Quantitative Response | Multiple Explanatory Variables</strong></p>
+<ul>
+<li><strong>Week 4</strong>
+<ul>
+<li>Chapter 3</li>
+<li>Order of Execution</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/BinomYQuantX.png" width=59px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>Binomial Response | 1 Explanatory Variable</strong></p>
+<ul>
+<li><strong>Week 5</strong>
+<ul>
+<li>Chapter 4</li>
+<li>Order of Execution (Advanced)</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/BinomYMultX.png" width=110px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>Binomial Response | Multiple Explanatory Variables</strong></p>
+<ul>
+<li><strong>Week 6</strong>
+<ul>
+<li>Chapter 6</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
-<div style="float:left;width:125px;" align="center">
-<p><img src="Images/QualYQualX.png" width=59px;></p>
-</div>
-<div style="padding-left:125px;">
-<!-- Add your customizations in the area below: -->
-<p><strong>2 Qualitative Variables</strong></p>
+<ul>
+<li><strong>Week 7</strong>
+<ul>
+<li>Normalization</li>
+</ul></li>
+</ul>
 <!------------------------------------------------>
-</div>
-<div style="clear:both;">
-
-</div>
 <hr />
+<ul>
+<li><strong>Week 8</strong>
+<ul>
+<li>Chapter 5</li>
+</ul></li>
+</ul>
+<!------------------------------------------------->
+<hr />
+<ul>
+<li><strong>Week 9</strong>
+<ul>
+<li>Chapter 8</li>
+<li>Chapter 9</li>
+</ul></li>
+</ul>
+<!------------------------------------------------->
+<hr />
+<ul>
+<li><strong>Week 10 - 11</strong>
+<ul>
+<li>Chapter 10-3</li>
+<li>Reverse Engineering a Database</li>
+<li>Salon Project</li>
+</ul></li>
+</ul>
+<!------------------------------------------------->
+<hr />
+<ul>
+<li><strong>Week 12 - 13</strong>
+<ul>
+<li>Views</li>
+<li>University Project</li>
+</ul></li>
+</ul>
+<!------------------------------------------------->
+<hr />
+<ul>
+<li><strong>Week 14</strong>
+<ul>
+<li>Final Exam</li>
+<li>Congratulations!</li>
+</ul></li>
+<li><strong>Special Thanks</strong>
+<ul>
+<li>Creators of the Textbook</li>
+<li>Student Feedback</li>
+</ul></li>
+</ul>
 <footer>
 </footer>
 
