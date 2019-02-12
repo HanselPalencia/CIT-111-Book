@@ -4,13 +4,13 @@ navbar:
   left:
     - text: "Table of Contents"
       href: index.html
-    - text: "Describing Data"
+    - text: "Week 1"
       menu:
         - text: "Graphical Summaries"
           href: GraphicalSummaries.html
         - text: "Numerical Summaries"
           href: NumericalSummaries.html
-    - text: "R Help"
+    - text: "Week 2"
       menu:
         - text: "R Commands"
           href: RCommands.html
@@ -18,7 +18,7 @@ navbar:
           href: RMarkdownHints.html
         - text: "R Cheatsheets & Notes"
           href: RCheatSheetsAndNotes.html
-    - text: "Analyses"
+    - text: "Week 3"
       menu:
         - text: "Analysis Rubric"
           href: ./Analyses/AnalysisRubric.html
@@ -30,7 +30,47 @@ navbar:
           href: ./Analyses/Stephanie.html
         - text: "Olympics Analysis"
           href: ./Analyses/Olympics.html
-          
+    - text: "Week 4"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 5"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 6"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 7"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 8"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 9"
+      menu: 
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 10"
+      menu: 
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 11-12"
+      menu: 
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 12-13"
+      menu: 
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+    - text: "Week 14"
+      menu:
+        - text: "Analysis Rubric"
+          href: ./Analyses/AnalysisRubric.html
+
 output_dir: '.'
 
   

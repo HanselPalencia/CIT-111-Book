@@ -15,7 +15,7 @@ This is a very simple version of the textbook and is to be used an example for f
 
 This book will be separated into the weeks of the semester.
 
-If you would like to get started go directly to Chapter 1!
+If you would like to get started go directly to Week 1!
 
 [Customization Help](RMarkdownHints.html)
 
@@ -131,6 +131,10 @@ Preface
     + Final Exam
     + Congratulations!
     
+<!------------------------------------------------->
+
+----
+
 * **Special Thanks**
     + Creators of the Textbook
     + Student Feedback
